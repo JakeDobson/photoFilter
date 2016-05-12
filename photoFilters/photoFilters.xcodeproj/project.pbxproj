@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		702036821C8B8CB000ADB20D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702036811C8B8CB000ADB20D /* AppDelegate.swift */; };
+		702036841C8B8CB000ADB20D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702036831C8B8CB000ADB20D /* ViewController.swift */; };
+		702036871C8B8CB100ADB20D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 702036851C8B8CB100ADB20D /* Main.storyboard */; };
+		702036891C8B8CB100ADB20D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 702036881C8B8CB100ADB20D /* Assets.xcassets */; };
+		7020368C1C8B8CB100ADB20D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7020368A1C8B8CB100ADB20D /* LaunchScreen.storyboard */; };
+		702036B41C8CD23C00ADB20D /* chicago_blackhawks_tomahawk-wallpaper-1366x768.png in Resources */ = {isa = PBXBuildFile; fileRef = 702036B31C8CD23C00ADB20D /* chicago_blackhawks_tomahawk-wallpaper-1366x768.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7020367E1C8B8CB000ADB20D /* photoFilters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = photoFilters.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		702036811C8B8CB000ADB20D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		702036831C8B8CB000ADB20D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		702036861C8B8CB100ADB20D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		702036881C8B8CB100ADB20D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7020368B1C8B8CB100ADB20D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7020368D1C8B8CB100ADB20D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		702036B31C8CD23C00ADB20D /* chicago_blackhawks_tomahawk-wallpaper-1366x768.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chicago_blackhawks_tomahawk-wallpaper-1366x768.png"; path = "../../../../../../../Pictures/chicago_blackhawks_tomahawk-wallpaper-1366x768.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7020367B1C8B8CB000ADB20D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		702036751C8B8CB000ADB20D = {
+			isa = PBXGroup;
+			children = (
+				702036801C8B8CB000ADB20D /* photoFilters */,
+				7020367F1C8B8CB000ADB20D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7020367F1C8B8CB000ADB20D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7020367E1C8B8CB000ADB20D /* photoFilters.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		702036801C8B8CB000ADB20D /* photoFilters */ = {
+			isa = PBXGroup;
+			children = (
+				702036B31C8CD23C00ADB20D /* chicago_blackhawks_tomahawk-wallpaper-1366x768.png */,
+				702036811C8B8CB000ADB20D /* AppDelegate.swift */,
+				702036831C8B8CB000ADB20D /* ViewController.swift */,
+				702036851C8B8CB100ADB20D /* Main.storyboard */,
+				702036881C8B8CB100ADB20D /* Assets.xcassets */,
+				7020368A1C8B8CB100ADB20D /* LaunchScreen.storyboard */,
+				7020368D1C8B8CB100ADB20D /* Info.plist */,
+			);
+			path = photoFilters;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7020367D1C8B8CB000ADB20D /* photoFilters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 702036901C8B8CB100ADB20D /* Build configuration list for PBXNativeTarget "photoFilters" */;
+			buildPhases = (
+				7020367A1C8B8CB000ADB20D /* Sources */,
+				7020367B1C8B8CB000ADB20D /* Frameworks */,
+				7020367C1C8B8CB000ADB20D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = photoFilters;
+			productName = photoFilters;
+			productReference = 7020367E1C8B8CB000ADB20D /* photoFilters.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		702036761C8B8CB000ADB20D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jake Dobson";
+				TargetAttributes = {
+					7020367D1C8B8CB000ADB20D = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = W2976V98HC;
+					};
+				};
+			};
+			buildConfigurationList = 702036791C8B8CB000ADB20D /* Build configuration list for PBXProject "photoFilters" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 702036751C8B8CB000ADB20D;
+			productRefGroup = 7020367F1C8B8CB000ADB20D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7020367D1C8B8CB000ADB20D /* photoFilters */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7020367C1C8B8CB000ADB20D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7020368C1C8B8CB100ADB20D /* LaunchScreen.storyboard in Resources */,
+				702036891C8B8CB100ADB20D /* Assets.xcassets in Resources */,
+				702036B41C8CD23C00ADB20D /* chicago_blackhawks_tomahawk-wallpaper-1366x768.png in Resources */,
+				702036871C8B8CB100ADB20D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7020367A1C8B8CB000ADB20D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				702036841C8B8CB000ADB20D /* ViewController.swift in Sources */,
+				702036821C8B8CB000ADB20D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		702036851C8B8CB100ADB20D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				702036861C8B8CB100ADB20D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7020368A1C8B8CB100ADB20D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7020368B1C8B8CB100ADB20D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7020368E1C8B8CB100ADB20D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7020368F1C8B8CB100ADB20D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		702036911C8B8CB100ADB20D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = photoFilters/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myStuff.photoFilters;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		702036921C8B8CB100ADB20D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = photoFilters/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myStuff.photoFilters;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		702036791C8B8CB000ADB20D /* Build configuration list for PBXProject "photoFilters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7020368E1C8B8CB100ADB20D /* Debug */,
+				7020368F1C8B8CB100ADB20D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		702036901C8B8CB100ADB20D /* Build configuration list for PBXNativeTarget "photoFilters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				702036911C8B8CB100ADB20D /* Debug */,
+				702036921C8B8CB100ADB20D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 702036761C8B8CB000ADB20D /* Project object */;
+}
